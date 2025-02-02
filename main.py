@@ -8,6 +8,9 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from dotenv import *
+from keep_alive import keep_alive
+
+keep_alive()
 
 
 load_dotenv(".env")
